@@ -41,8 +41,8 @@
             this._инв_Должность_подстановкаBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this._инв_Должность_подстановкаTableAdapter = new WindowsFormsApp1.FahritdinovDbDataSetTableAdapters._инв_Должность_подстановкаTableAdapter();
             this.tableAdapterManager = new WindowsFormsApp1.FahritdinovDbDataSetTableAdapters.TableAdapterManager();
-            this.данные_об_имущетсве__фактически_BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.данные_об_имущетсве__фактически_TableAdapter = new WindowsFormsApp1.FahritdinovDbDataSetTableAdapters.Данные_об_имущетсве__фактически_TableAdapter();
+            this.данные_об_имущетсве__фактически_BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.инвентарный_номерTextBox = new System.Windows.Forms.TextBox();
             this.видTextBox = new System.Windows.Forms.TextBox();
             this.кол_во_фактическое_TextBox = new System.Windows.Forms.TextBox();
@@ -64,13 +64,13 @@
             this.bindingNavigatorSeparator2 = new System.Windows.Forms.ToolStripSeparator();
             this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem = new System.Windows.Forms.ToolStripButton();
             this.данные_об_имущетсве__фактически_DataGridView = new System.Windows.Forms.DataGridView();
-            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.dataGridViewTextBoxColumn7 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.dataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             инвентарный_номерLabel = new System.Windows.Forms.Label();
             видLabel = new System.Windows.Forms.Label();
             кол_во_фактическое_Label = new System.Windows.Forms.Label();
@@ -85,6 +85,69 @@
             this.данные_об_имущетсве__фактически_BindingNavigator.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.данные_об_имущетсве__фактически_DataGridView)).BeginInit();
             this.SuspendLayout();
+            // 
+            // инвентарный_номерLabel
+            // 
+            инвентарный_номерLabel.AutoSize = true;
+            инвентарный_номерLabel.Location = new System.Drawing.Point(12, 252);
+            инвентарный_номерLabel.Name = "инвентарный_номерLabel";
+            инвентарный_номерLabel.Size = new System.Drawing.Size(114, 13);
+            инвентарный_номерLabel.TabIndex = 1;
+            инвентарный_номерLabel.Text = "Инвентарный номер:";
+            // 
+            // видLabel
+            // 
+            видLabel.AutoSize = true;
+            видLabel.Location = new System.Drawing.Point(12, 289);
+            видLabel.Name = "видLabel";
+            видLabel.Size = new System.Drawing.Size(29, 13);
+            видLabel.TabIndex = 3;
+            видLabel.Text = "Вид:";
+            // 
+            // кол_во_фактическое_Label
+            // 
+            кол_во_фактическое_Label.AutoSize = true;
+            кол_во_фактическое_Label.Location = new System.Drawing.Point(12, 323);
+            кол_во_фактическое_Label.Name = "кол_во_фактическое_Label";
+            кол_во_фактическое_Label.Size = new System.Drawing.Size(116, 13);
+            кол_во_фактическое_Label.TabIndex = 5;
+            кол_во_фактическое_Label.Text = "Кол-во(фактическое):";
+            // 
+            // состояниеLabel
+            // 
+            состояниеLabel.AutoSize = true;
+            состояниеLabel.Location = new System.Drawing.Point(12, 355);
+            состояниеLabel.Name = "состояниеLabel";
+            состояниеLabel.Size = new System.Drawing.Size(64, 13);
+            состояниеLabel.TabIndex = 7;
+            состояниеLabel.Text = "Состояние:";
+            // 
+            // фИО_ИНВ_Label
+            // 
+            фИО_ИНВ_Label.AutoSize = true;
+            фИО_ИНВ_Label.Location = new System.Drawing.Point(381, 266);
+            фИО_ИНВ_Label.Name = "фИО_ИНВ_Label";
+            фИО_ИНВ_Label.Size = new System.Drawing.Size(66, 13);
+            фИО_ИНВ_Label.TabIndex = 9;
+            фИО_ИНВ_Label.Text = "ФИО(ИНВ):";
+            // 
+            // фИО_ОТВ_Label
+            // 
+            фИО_ОТВ_Label.AutoSize = true;
+            фИО_ОТВ_Label.Location = new System.Drawing.Point(381, 308);
+            фИО_ОТВ_Label.Name = "фИО_ОТВ_Label";
+            фИО_ОТВ_Label.Size = new System.Drawing.Size(65, 13);
+            фИО_ОТВ_Label.TabIndex = 11;
+            фИО_ОТВ_Label.Text = "ФИО(ОТВ):";
+            // 
+            // зона_ответсвеностиLabel
+            // 
+            зона_ответсвеностиLabel.AutoSize = true;
+            зона_ответсвеностиLabel.Location = new System.Drawing.Point(381, 352);
+            зона_ответсвеностиLabel.Name = "зона_ответсвеностиLabel";
+            зона_ответсвеностиLabel.Size = new System.Drawing.Size(113, 13);
+            зона_ответсвеностиLabel.TabIndex = 13;
+            зона_ответсвеностиLabel.Text = "Зона ответсвености:";
             // 
             // fahritdinovDbDataSet
             // 
@@ -116,23 +179,14 @@
             this.tableAdapterManager.Расхождения_в_состоянии_имуществаTableAdapter = null;
             this.tableAdapterManager.Состояние_подстановкаTableAdapter = null;
             // 
-            // данные_об_имущетсве__фактически_BindingSource
-            // 
-            this.данные_об_имущетсве__фактически_BindingSource.DataMember = "Данные об имущетсве( фактически)";
-            this.данные_об_имущетсве__фактически_BindingSource.DataSource = this.fahritdinovDbDataSet;
-            // 
             // данные_об_имущетсве__фактически_TableAdapter
             // 
             this.данные_об_имущетсве__фактически_TableAdapter.ClearBeforeFill = true;
             // 
-            // инвентарный_номерLabel
+            // данные_об_имущетсве__фактически_BindingSource
             // 
-            инвентарный_номерLabel.AutoSize = true;
-            инвентарный_номерLabel.Location = new System.Drawing.Point(12, 252);
-            инвентарный_номерLabel.Name = "инвентарный_номерLabel";
-            инвентарный_номерLabel.Size = new System.Drawing.Size(114, 13);
-            инвентарный_номерLabel.TabIndex = 1;
-            инвентарный_номерLabel.Text = "Инвентарный номер:";
+            this.данные_об_имущетсве__фактически_BindingSource.DataMember = "Данные об имущетсве( фактически)";
+            this.данные_об_имущетсве__фактически_BindingSource.DataSource = this.fahritdinovDbDataSet;
             // 
             // инвентарный_номерTextBox
             // 
@@ -143,15 +197,6 @@
             this.инвентарный_номерTextBox.TabIndex = 2;
             this.инвентарный_номерTextBox.TextChanged += new System.EventHandler(this.инвентарный_номерTextBox_TextChanged);
             // 
-            // видLabel
-            // 
-            видLabel.AutoSize = true;
-            видLabel.Location = new System.Drawing.Point(12, 289);
-            видLabel.Name = "видLabel";
-            видLabel.Size = new System.Drawing.Size(29, 13);
-            видLabel.TabIndex = 3;
-            видLabel.Text = "Вид:";
-            // 
             // видTextBox
             // 
             this.видTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.данные_об_имущетсве__фактически_BindingSource, "Вид", true));
@@ -159,15 +204,6 @@
             this.видTextBox.Name = "видTextBox";
             this.видTextBox.Size = new System.Drawing.Size(100, 20);
             this.видTextBox.TabIndex = 4;
-            // 
-            // кол_во_фактическое_Label
-            // 
-            кол_во_фактическое_Label.AutoSize = true;
-            кол_во_фактическое_Label.Location = new System.Drawing.Point(12, 323);
-            кол_во_фактическое_Label.Name = "кол_во_фактическое_Label";
-            кол_во_фактическое_Label.Size = new System.Drawing.Size(116, 13);
-            кол_во_фактическое_Label.TabIndex = 5;
-            кол_во_фактическое_Label.Text = "Кол-во(фактическое):";
             // 
             // кол_во_фактическое_TextBox
             // 
@@ -177,15 +213,6 @@
             this.кол_во_фактическое_TextBox.Size = new System.Drawing.Size(100, 20);
             this.кол_во_фактическое_TextBox.TabIndex = 6;
             // 
-            // состояниеLabel
-            // 
-            состояниеLabel.AutoSize = true;
-            состояниеLabel.Location = new System.Drawing.Point(12, 355);
-            состояниеLabel.Name = "состояниеLabel";
-            состояниеLabel.Size = new System.Drawing.Size(64, 13);
-            состояниеLabel.TabIndex = 7;
-            состояниеLabel.Text = "Состояние:";
-            // 
             // состояниеTextBox
             // 
             this.состояниеTextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.данные_об_имущетсве__фактически_BindingSource, "Состояние", true));
@@ -193,15 +220,6 @@
             this.состояниеTextBox.Name = "состояниеTextBox";
             this.состояниеTextBox.Size = new System.Drawing.Size(100, 20);
             this.состояниеTextBox.TabIndex = 8;
-            // 
-            // фИО_ИНВ_Label
-            // 
-            фИО_ИНВ_Label.AutoSize = true;
-            фИО_ИНВ_Label.Location = new System.Drawing.Point(381, 266);
-            фИО_ИНВ_Label.Name = "фИО_ИНВ_Label";
-            фИО_ИНВ_Label.Size = new System.Drawing.Size(66, 13);
-            фИО_ИНВ_Label.TabIndex = 9;
-            фИО_ИНВ_Label.Text = "ФИО(ИНВ):";
             // 
             // фИО_ИНВ_TextBox
             // 
@@ -212,15 +230,6 @@
             this.фИО_ИНВ_TextBox.TabIndex = 10;
             this.фИО_ИНВ_TextBox.TextChanged += new System.EventHandler(this.фИО_ИНВ_TextBox_TextChanged);
             // 
-            // фИО_ОТВ_Label
-            // 
-            фИО_ОТВ_Label.AutoSize = true;
-            фИО_ОТВ_Label.Location = new System.Drawing.Point(381, 308);
-            фИО_ОТВ_Label.Name = "фИО_ОТВ_Label";
-            фИО_ОТВ_Label.Size = new System.Drawing.Size(65, 13);
-            фИО_ОТВ_Label.TabIndex = 11;
-            фИО_ОТВ_Label.Text = "ФИО(ОТВ):";
-            // 
             // фИО_ОТВ_TextBox
             // 
             this.фИО_ОТВ_TextBox.DataBindings.Add(new System.Windows.Forms.Binding("Text", this.данные_об_имущетсве__фактически_BindingSource, "ФИО(ОТВ)", true));
@@ -228,15 +237,6 @@
             this.фИО_ОТВ_TextBox.Name = "фИО_ОТВ_TextBox";
             this.фИО_ОТВ_TextBox.Size = new System.Drawing.Size(100, 20);
             this.фИО_ОТВ_TextBox.TabIndex = 12;
-            // 
-            // зона_ответсвеностиLabel
-            // 
-            зона_ответсвеностиLabel.AutoSize = true;
-            зона_ответсвеностиLabel.Location = new System.Drawing.Point(381, 352);
-            зона_ответсвеностиLabel.Name = "зона_ответсвеностиLabel";
-            зона_ответсвеностиLabel.Size = new System.Drawing.Size(113, 13);
-            зона_ответсвеностиLabel.TabIndex = 13;
-            зона_ответсвеностиLabel.Text = "Зона ответсвености:";
             // 
             // зона_ответсвеностиTextBox
             // 
@@ -300,6 +300,7 @@
             this.bindingNavigatorDeleteItem.RightToLeftAutoMirrorImage = true;
             this.bindingNavigatorDeleteItem.Size = new System.Drawing.Size(23, 22);
             this.bindingNavigatorDeleteItem.Text = "Удалить";
+            this.bindingNavigatorDeleteItem.Click += new System.EventHandler(this.bindingNavigatorDeleteItem_Click);
             // 
             // bindingNavigatorMoveFirstItem
             // 
@@ -328,6 +329,7 @@
             // 
             this.bindingNavigatorPositionItem.AccessibleName = "Положение";
             this.bindingNavigatorPositionItem.AutoSize = false;
+            this.bindingNavigatorPositionItem.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.bindingNavigatorPositionItem.Name = "bindingNavigatorPositionItem";
             this.bindingNavigatorPositionItem.Size = new System.Drawing.Size(50, 23);
             this.bindingNavigatorPositionItem.Text = "0";
@@ -368,6 +370,7 @@
             this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem.Name = "данные_об_имущетсве__фактически_BindingNavigatorSaveItem";
             this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem.Size = new System.Drawing.Size(23, 22);
             this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem.Text = "Сохранить данные";
+            this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem.Click += new System.EventHandler(this.данные_об_имущетсве__фактически_BindingNavigatorSaveItem_Click);
             // 
             // данные_об_имущетсве__фактически_DataGridView
             // 
@@ -387,35 +390,11 @@
             this.данные_об_имущетсве__фактически_DataGridView.Size = new System.Drawing.Size(800, 220);
             this.данные_об_имущетсве__фактически_DataGridView.TabIndex = 15;
             // 
-            // dataGridViewTextBoxColumn1
+            // dataGridViewTextBoxColumn7
             // 
-            this.dataGridViewTextBoxColumn1.DataPropertyName = "Инвентарный номер";
-            this.dataGridViewTextBoxColumn1.HeaderText = "Инвентарный номер";
-            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
-            // 
-            // dataGridViewTextBoxColumn2
-            // 
-            this.dataGridViewTextBoxColumn2.DataPropertyName = "Вид";
-            this.dataGridViewTextBoxColumn2.HeaderText = "Вид";
-            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
-            // 
-            // dataGridViewTextBoxColumn3
-            // 
-            this.dataGridViewTextBoxColumn3.DataPropertyName = "Кол-во(фактическое)";
-            this.dataGridViewTextBoxColumn3.HeaderText = "Кол-во(фактическое)";
-            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
-            // 
-            // dataGridViewTextBoxColumn4
-            // 
-            this.dataGridViewTextBoxColumn4.DataPropertyName = "Состояние";
-            this.dataGridViewTextBoxColumn4.HeaderText = "Состояние";
-            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
-            // 
-            // dataGridViewTextBoxColumn5
-            // 
-            this.dataGridViewTextBoxColumn5.DataPropertyName = "ФИО(ИНВ)";
-            this.dataGridViewTextBoxColumn5.HeaderText = "ФИО(ИНВ)";
-            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            this.dataGridViewTextBoxColumn7.DataPropertyName = "Зона ответсвености";
+            this.dataGridViewTextBoxColumn7.HeaderText = "Зона ответсвености";
+            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
             // 
             // dataGridViewTextBoxColumn6
             // 
@@ -423,11 +402,35 @@
             this.dataGridViewTextBoxColumn6.HeaderText = "ФИО(ОТВ)";
             this.dataGridViewTextBoxColumn6.Name = "dataGridViewTextBoxColumn6";
             // 
-            // dataGridViewTextBoxColumn7
+            // dataGridViewTextBoxColumn5
             // 
-            this.dataGridViewTextBoxColumn7.DataPropertyName = "Зона ответсвености";
-            this.dataGridViewTextBoxColumn7.HeaderText = "Зона ответсвености";
-            this.dataGridViewTextBoxColumn7.Name = "dataGridViewTextBoxColumn7";
+            this.dataGridViewTextBoxColumn5.DataPropertyName = "ФИО(ИНВ)";
+            this.dataGridViewTextBoxColumn5.HeaderText = "ФИО(ИНВ)";
+            this.dataGridViewTextBoxColumn5.Name = "dataGridViewTextBoxColumn5";
+            // 
+            // dataGridViewTextBoxColumn4
+            // 
+            this.dataGridViewTextBoxColumn4.DataPropertyName = "Состояние";
+            this.dataGridViewTextBoxColumn4.HeaderText = "Состояние";
+            this.dataGridViewTextBoxColumn4.Name = "dataGridViewTextBoxColumn4";
+            // 
+            // dataGridViewTextBoxColumn3
+            // 
+            this.dataGridViewTextBoxColumn3.DataPropertyName = "Кол-во(фактическое)";
+            this.dataGridViewTextBoxColumn3.HeaderText = "Кол-во(фактическое)";
+            this.dataGridViewTextBoxColumn3.Name = "dataGridViewTextBoxColumn3";
+            // 
+            // dataGridViewTextBoxColumn2
+            // 
+            this.dataGridViewTextBoxColumn2.DataPropertyName = "Вид";
+            this.dataGridViewTextBoxColumn2.HeaderText = "Вид";
+            this.dataGridViewTextBoxColumn2.Name = "dataGridViewTextBoxColumn2";
+            // 
+            // dataGridViewTextBoxColumn1
+            // 
+            this.dataGridViewTextBoxColumn1.DataPropertyName = "Инвентарный номер";
+            this.dataGridViewTextBoxColumn1.HeaderText = "Инвентарный номер";
+            this.dataGridViewTextBoxColumn1.Name = "dataGridViewTextBoxColumn1";
             // 
             // Form1
             // 

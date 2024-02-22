@@ -43,5 +43,17 @@ namespace WindowsFormsApp1
         {
 
         }
+
+        private void данные_об_имущетсве__фактически_BindingNavigatorSaveItem_Click(object sender, EventArgs e)
+        {
+            this.данные_об_имущетсве__фактически_TableAdapter.Update(this.fahritdinovDbDataSet._Данные_об_имущетсве__фактически_);
+
+
+        }
+
+        private void bindingNavigatorDeleteItem_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
